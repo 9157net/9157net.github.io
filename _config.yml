@@ -1,10 +1,10 @@
 # Site settings
-title: Hacker-XingYu
-SEOTitle: Hacker-XingYu | 一颗特立独行的星星
+title: 广东微介电子商务有限公司
+SEOTitle: 广东微介电子商务有限公司 | 风采展示
 header-img: img/home-bg.jpg
-email: hacker-xingyu@qq.com
-description: "Happy Every Day."
-keyword: "XingYu, Hacker-XingYu, 一颗特立独行的星星, Html, Android, Reverse engineering"
+email: 2550274240@qq.com
+description: "省时，省力，省心，省钱"
+keyword: "广东,广东微介,广东微介电子商务,电子的商务,风采展示"
 url: "https://9157net.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -12,15 +12,13 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: false
-weibo_username:     517nxy
-zhihu_username:     duoxingyu
+#weibo_username:     517nxy
+#zhihu_username:     duoxingyu
 #github_username:   hacker-xingyu
 #twitter_username:   huxpro
-facebook_username:  100011423768601
+#facebook_username:  100011423768601
 # linkedin_username:  firstname-lastname-idxxxx
 #jianshu_username:   55e12fd2e42b
-
-
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
