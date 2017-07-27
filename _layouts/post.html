@@ -123,7 +123,7 @@ layout: default
                 {% endif %}
 
                 {% if site.disqus_username %}
-                <!-- JiaThis Button BEGIN -->
+                                <!-- JiaThis Button BEGIN -->
 <div class="jiathis_style">
 	<a class="jiathis_button_cqq"></a>
 	<a class="jiathis_button_qzone"></a>
@@ -146,6 +146,14 @@ layout: default
 <div id="uyan_frame"></div>
 <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2139946"></script>
 <!-- UY END --> 
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                {% endif %}
+
+            </div>  
 
     <!-- Side Catalog Container -->
         {% if page.catalog %}
