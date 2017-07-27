@@ -84,15 +84,15 @@ service-worker: true
 
 
 # Friends
-#friends: [
+friends: [
     {
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
-        title: "陈广",
-        href: "http://talei.me"
+       # title: "陈广",
+        #href: "http://talei.me"
     },{
-        title: "左康飞",
-        href: "https://zuokangbo.github.io"
+       # title: "左康飞",
+       # href: "https://zuokangbo.github.io"
     }
 ]
