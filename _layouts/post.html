@@ -80,7 +80,22 @@ layout: default
                     </li>
                     {% endif %}
                 </ul>
-<!-- JiaThis Button BEGIN -->
+
+                {% if site.disqus_username %}
+
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                {% endif %}
+
+                {% if site.netease_comment %}
+                <!-- 网易云跟帖 评论框 start -->
+                <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+                <!-- 网易云跟帖 评论框 end -->
+                {% endif %}
+                <!-- JiaThis Button BEGIN -->
 <div class="jiathis_style">
 	<a class="jiathis_button_qzone"></a>
 	<a class="jiathis_button_tsina"></a>
@@ -95,20 +110,6 @@ var jiathis_config = {data_track_clickback:'true'};
 </script>
 <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=2139946" charset="utf-8"></script>
 <!-- JiaThis Button END -->
-
-                {% if site.disqus_username %}
-                <!-- disqus 评论框 start -->
-                <div class="comment">
-                    <div id="disqus_thread" class="disqus-thread"></div>
-                </div>
-                <!-- disqus 评论框 end -->
-                {% endif %}
-
-                {% if site.netease_comment %}
-                <!-- 网易云跟帖 评论框 start -->
-                <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
-                <!-- 网易云跟帖 评论框 end -->
-                {% endif %}
             </div>  
 
     <!-- Side Catalog Container -->
