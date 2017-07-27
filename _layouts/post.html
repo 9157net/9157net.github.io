@@ -123,15 +123,7 @@ layout: default
                 {% endif %}
 
                 {% if site.disqus_username %}
-                <!-- disqus 评论框 start -->
-                <div class="comment">
-                    <div id="disqus_thread" class="disqus-thread"></div>
-                </div>
-                <!-- disqus 评论框 end -->
-                {% endif %}
-
-            </div>  
-                            <!-- JiaThis Button BEGIN -->
+                 <!-- JiaThis Button BEGIN -->
 <div class="jiathis_style">
 	<a class="jiathis_button_cqq"></a>
 	<a class="jiathis_button_qzone"></a>
@@ -142,6 +134,14 @@ layout: default
 </div>
 <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=2139946" charset="utf-8"></script>
 <!-- JiaThis Button END -->
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                {% endif %}
+
+            </div>  
 
     <!-- Side Catalog Container -->
         {% if page.catalog %}
