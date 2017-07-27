@@ -1,0 +1,12 @@
+---
+layout:     post                       
+title:      一键自动填写昵称、邮箱和网址               
+subtitle:    支持大部分博客系统一键自动填写昵称、邮箱和网址JS代码#副标题
+date:       2017-07-26                 
+author:     Hacker-XingYu                         
+header-img: img/post-bg-2015.jpg    
+catalog: true                         
+tags:                               
+    - JS
+---
+    javascript: void function() { var formArray = ["commentform", "comment_form","frmSumbit"], nameArray = ["author", "author", "inpName"], emailArray = ["email", "mail", "inpEmail"], urlArray = ["url", "url", "inpHomePage"]; for (i = 0; i < formArray.length; i++) { var form = document.getElementById(formArray[i]); if (form != null) { var name = document.getElementById(nameArray[i]), email = document.getElementById(emailArray[i]), url = document.getElementById(urlArray[i]); name != null && (name.value = "Hacker-XingYu"), email != null && (email.value = "Hacker-XingYu@qq.com"), url != null && (url.value = "http://90hehuoren.win/"); break } } return ! 1 } ()
