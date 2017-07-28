@@ -1,0 +1,14 @@
+---
+layout:     post                       
+title:      广东微介电子商务有限公司                  
+subtitle:   贵州运营中心
+date:       2017-07-28                 
+author:     XingYu                         
+header-img: img/post-bg-2015.jpg     
+catalog: true                         
+tags:                                
+    - 贵州运营中心
+---
+![](http://i.imgur.com/IP2YWLI.jpg)
+![](http://i.imgur.com/aLrvXbq.jpg)
+![](http://i.imgur.com/hgVzFMD.jpg)
