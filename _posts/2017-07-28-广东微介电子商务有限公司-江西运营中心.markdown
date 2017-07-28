@@ -1,0 +1,14 @@
+---
+layout:     post                       
+title:      广东微介电子商务有限公司                  
+subtitle:   江西运营中心
+date:       2017-07-28                 
+author:     XingYu                         
+header-img: img/post-bg-2015.jpg     
+catalog: true                         
+tags:                                
+    - 江西运营中心
+---
+![](http://i.imgur.com/23AJKb6.jpg)
+![](http://i.imgur.com/3hyMfIc.jpg)
+![](http://i.imgur.com/lnV3dZC.jpg)
